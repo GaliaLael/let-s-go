@@ -9,6 +9,7 @@ body {
   font-family: 'Bungee Shade', cursive;
   font-size: 60px;
   position: relative;
+  overflow: hidden;
 }
 
 a {
