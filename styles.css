@@ -9,18 +9,13 @@ body {
   font-family: 'Bungee Shade', cursive;
   font-size: 60px;
   position: relative;
-  overflow: hidden;
-}
-
-a {
-  text-decoration: none;
 }
 
 .text {
-  left: 100px;
-  padding: 0 100px;
   position: absolute;
-  top: 300px;
+  top: 30vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .text1 {
@@ -55,9 +50,13 @@ a {
 
   animation: black-in;
   animation-duration: 1s;
-  animation-delay: 4.6s;
+  animation-delay: 4.7s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-out;
+}
+
+a {
+  text-decoration: none;
 }
 
 .repo-link {
@@ -81,11 +80,11 @@ a {
     font-size: 42px;
   }
 
-  .text {
+  /* .text {
     left: 40px;
     top: 200px;
     padding: 0;
-  }
+  } */
 
   .repo-link {
     left: 220px;
